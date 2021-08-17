@@ -1,0 +1,14 @@
+table {
+    border-collapse: collapse;
+}
+tr {
+    border: solid;
+    border-width: 10px 0;
+    border-color: #fff;
+}
+tr:first-child {
+    border-top: none;
+}
+tr:last-child {
+    border-bottom: none;
+}
